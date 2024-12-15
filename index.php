@@ -42,7 +42,7 @@ if ($conn->query($sql) === TRUE) {
 echo "Your IP address is: $visitor_ip<br>";
 echo "Current server time is: $current_time<br>";
 
-// Close the connection
+echo "Thank you 😚";
 $conn->close();
 ?>
 
